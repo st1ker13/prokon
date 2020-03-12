@@ -17,25 +17,19 @@
         </ul>
     </div>
 @endif
-<form method="post" action="{{route('authors.update', ['author' => $author])}}">
+<form method="post" action="{{route('books.store')}}">
     @csrf
-    @method('PUT')
     name author
-    <input type="text" value="{{$author->name}}" name="author"> <br><br><br>
-    array books
-    <select multiple name="book[]">
-        @foreach($booksAll as $book)
-            @if(in_array($book->id, $booksAuthor))
-                <option selected value="{{$book->id}}">{{$book->title}}</option>
-            @else
-                <option value="{{$book->id}}">{{$book->title}}</option>
-            @endif
+    <input type="text" name="author"> <br><br><br>
+    array authors
+    <select multiple name="authors[]">
+        @foreach($authors as $author)
+            <option value="{{$author->id}}">{{$author->name}}</option>
         @endforeach
     </select> <br><br><br>
-    new book
+    title book
     <input type="text" name="book_title"> <br><br><br>
     <button type="submit">submit</button>
 </form>
-
 </body>
 </html>

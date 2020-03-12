@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d256751-51ef-4839-b604-15d4a5389421" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Author/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Author/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Book/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Book/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Manager/AuthorManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Manager/AuthorManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Manager/BookManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Manager/BookManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/author/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/author/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/author/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/author/edit.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,6 +141,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Http/Requests/Authors" />
       <recent name="$PROJECT_DIR$/app/Http/Requests/Author" />
     </key>
   </component>
@@ -155,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584028252721</updated>
-      <workItem from="1584028253952" duration="12881000" />
+      <workItem from="1584028253952" duration="16118000" />
     </task>
     <servers />
   </component>
@@ -167,18 +167,18 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2917" y="523" key="#com.intellij.fileTypes.FileTypeChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584035479784" />
-    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1584041033884">
+    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1584043831645">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584041033884" />
-    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584040187014">
+    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584043831645" />
+    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584042866821">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584040187014" />
-    <state x="2904" y="533" key="NewPhpClassDialog" timestamp="1584035939781">
+    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584042866821" />
+    <state x="2904" y="533" key="NewPhpClassDialog" timestamp="1584044232623">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2904" y="533" key="NewPhpClassDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584035939781" />
+    <state x="2904" y="533" key="NewPhpClassDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584044232623" />
     <state x="2697" y="353" key="SettingsEditor" timestamp="1584040805003">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>

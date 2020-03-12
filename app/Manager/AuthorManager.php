@@ -15,6 +15,14 @@ class AuthorManager
     /**
      * @return \Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection
      */
+    public function getListWithoutBooks()
+    {
+        return Author::get();
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Builder[]|\Illuminate\Database\Eloquent\Collection
+     */
     public function getList()
     {
         return Author::with('books')->get();
@@ -29,7 +37,7 @@ class AuthorManager
         $author = new Author;
         $author->name = $request->author;
         $author->save();
-        if ($request->has('book_title')) {
+        if ($request->has('book_title') && !is_null($request->book_title)) {
             $author->books()->create([
                 'title' => $request->book_title,
             ]);

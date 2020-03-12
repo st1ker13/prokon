@@ -4,8 +4,9 @@ namespace App\Http\Controllers\Author;
 
 use App\Facades\AuthorManager;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\Authors\StoreAuthor;
+use App\Http\Requests\Authors\UpdateAuthor;
 use App\Models\Author;
-use Illuminate\Http\Request;
 
 /**
  * Class IndexController
@@ -24,10 +25,10 @@ class IndexController extends Controller
     }
 
     /**
-     * @param Request $request
+     * @param StoreAuthor $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Request $request)
+    public function store(StoreAuthor $request)
     {
         $author = AuthorManager::store($request);
 
@@ -71,11 +72,11 @@ class IndexController extends Controller
     }
 
     /**
-     * @param Request $request
+     * @param UpdateAuthor $request
      * @param Author $author
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function update(Request $request, Author $author)
+    public function update(UpdateAuthor $request, Author $author)
     {
         $author = AuthorManager::update($request, $author);
 
