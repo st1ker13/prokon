@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d256751-51ef-4839-b604-15d4a5389421" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Author/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Author/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Book/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Book/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Manager/AuthorManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Manager/AuthorManager.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Manager/BookManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Manager/BookManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/author/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/author/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/author/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/author/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -135,15 +136,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/primarkt/primarkt" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Api/Http/Controllers/Book" />
       <recent name="$PROJECT_DIR$/app/Http/Requests/Authors" />
       <recent name="$PROJECT_DIR$/app/Http/Requests/Author" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -155,7 +163,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584028252721</updated>
-      <workItem from="1584028253952" duration="16118000" />
+      <workItem from="1584028253952" duration="16384000" />
+      <workItem from="1584082807085" duration="570000" />
+      <workItem from="1584111771786" duration="6085000" />
     </task>
     <servers />
   </component>
@@ -167,22 +177,38 @@
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2917" y="523" key="#com.intellij.fileTypes.FileTypeChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584035479784" />
-    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1584043831645">
+    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser" timestamp="1584117524105">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584043831645" />
-    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584042866821">
+    <state x="3009" y="437" key="#com.intellij.ide.util.MemberChooser/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584117524105" />
+    <state x="2958" y="340" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584113662622">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584042866821" />
-    <state x="2904" y="533" key="NewPhpClassDialog" timestamp="1584044232623">
+    <state x="2958" y="340" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584113662622" />
+    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1584115811360">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
-    <state x="2904" y="533" key="NewPhpClassDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584044232623" />
+    <state x="2934" y="476" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584115811360" />
+    <state x="2984" y="646" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#" timestamp="1584114922433">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2984" y="646" key="#com.jetbrains.php.lang.intentions.PhpImportClassDialog#/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584114922433" />
+    <state x="2983" y="478" width="432" height="487" key="FileChooserDialogImpl" timestamp="1584111861521">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2983" y="478" width="432" height="487" key="FileChooserDialogImpl/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584111861521" />
+    <state x="2904" y="533" key="NewPhpClassDialog" timestamp="1584115797491">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2904" y="533" key="NewPhpClassDialog/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584115797491" />
     <state x="2697" y="353" key="SettingsEditor" timestamp="1584040805003">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>
     <state x="2697" y="353" key="SettingsEditor/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584040805003" />
+    <state x="2391" y="234" width="1410" height="800" key="find.popup" timestamp="1584117568868">
+      <screen x="1920" y="0" width="2560" height="1440" />
+    </state>
+    <state x="2391" y="234" width="1410" height="800" key="find.popup/0.360.1920.1080/1920.0.2560.1440@1920.0.2560.1440" timestamp="1584117568868" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1584036794594">
       <screen x="1920" y="0" width="2560" height="1440" />
     </state>

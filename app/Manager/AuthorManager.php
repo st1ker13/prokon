@@ -87,7 +87,7 @@ class AuthorManager
     public function update(Request $request, Author $author)
     {
         $author->name = $request->author;
-        $booksArray = $request->book;
+        $booksArray = $request->book ? $request->book : [];
         $author->save();
         if ($request->has('book_title') && !is_null($request->book_title)) {
             $book = $author->books()->create([

@@ -176,6 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         \App\Providers\Author\IndexManagerServiceProvider::class,
         \App\Providers\Book\IndexManagerServiceProvider::class,
+        \App\Api\Providers\ResponseServiceProvider::class,
+        \App\Api\Providers\ManagerServiceProvider::class,
 
     ],
 

@@ -87,7 +87,7 @@ class BookManager
     public function update(Request $request, Book $book)
     {
         $book->title = $request->book_title;
-        $authorsArray = $request->authors;
+        $authorsArray = $request->authors ? $request->authors : [];
         $book->save();
         if ($request->has('author') && !is_null($request->author)) {
             $author = $book->authors()->create([
